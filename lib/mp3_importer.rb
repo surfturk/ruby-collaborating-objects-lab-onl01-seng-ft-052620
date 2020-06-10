@@ -2,6 +2,7 @@ class MP3Importer
   attr_accessor :path, :files
   
   def initialize(path)
+    binding.pry
     @path = path
     @files = []
     Dir.foreach(@path) do |file|
