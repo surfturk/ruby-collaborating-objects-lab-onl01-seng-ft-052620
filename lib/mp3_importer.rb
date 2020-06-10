@@ -3,7 +3,7 @@ class MP3Importer
   
   def initialize(path)
     @path = path
-    Dir.for.each(@path) {|file| }
+    Dir.for.each(@path) {|file| if file.include?("mp3")}
   end  
  
  def 
