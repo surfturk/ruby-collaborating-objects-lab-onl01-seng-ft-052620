@@ -28,6 +28,7 @@ class Artist
  
   
   def self.find_or_create_by_name(name)
+    binding.pry
      new_name = @@all.find do |artist|
         artist.name == name
          if new_name 
