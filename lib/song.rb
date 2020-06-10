@@ -16,7 +16,7 @@ class Song
    
    file = filename.split(" - ")
     binding.pry
-   song = self.new(file)
+   song = self.new(file[1])
    
  end   
  
