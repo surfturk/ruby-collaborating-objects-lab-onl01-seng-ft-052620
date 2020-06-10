@@ -31,6 +31,7 @@ class Artist
     binding.pry
      new_name = @@all.find do |artist|
         artist.name == name
+      end
          if new_name 
           new_name
         else
