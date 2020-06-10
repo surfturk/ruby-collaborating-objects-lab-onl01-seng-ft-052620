@@ -28,9 +28,9 @@ class Artist
  
   
   def self.find_or_create_by_name(name)
-     @@all.each do |artist|
-    if artist.name == name
-      return name 
+     new_name = @@all.each do |artist|
+       if artist.name == name
+        new_name
     end
   end
  end  
