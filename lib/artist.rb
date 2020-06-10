@@ -36,7 +36,6 @@ class Artist
           new_name
         else
           self.new(name)
-    end
   end
  end  
   
