@@ -3,7 +3,7 @@ class MP3Importer
   
   def initialize(path)
     @path = path
-    Dir.for.each(pass)
+    Dir.for.each(path)
   end  
  
  def 
