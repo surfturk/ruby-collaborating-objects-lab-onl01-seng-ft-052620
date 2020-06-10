@@ -4,7 +4,7 @@ class MP3Importer
   def initialize(path)
     @path = path
     @files = []
-    Dir.foreach(@path) {|file| if file.include?("mp3")  @files << file}
+    Dir.foreach(@path) do |file| if file.include?("mp3")  @files << file end
   end  
   
  
