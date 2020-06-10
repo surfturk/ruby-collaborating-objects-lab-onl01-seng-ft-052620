@@ -32,6 +32,8 @@ class Artist
         artist.name == name
          if new_name 
           new_name
+        else
+          self.new
     end
   end
  end  
