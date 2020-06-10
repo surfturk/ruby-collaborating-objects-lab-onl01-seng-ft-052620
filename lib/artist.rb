@@ -33,7 +33,7 @@ class Artist
          if new_name 
           new_name
         else
-          self.new
+          self.new(name)
     end
   end
  end  
