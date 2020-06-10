@@ -8,7 +8,7 @@ class MP3Importer
     Dir.foreach(@path) do |file|
       if file.include?("mp3") 
         @files << file
-        binding.pry
+        
     end
   end  
  end 
