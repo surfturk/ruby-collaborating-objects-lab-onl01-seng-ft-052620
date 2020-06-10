@@ -6,8 +6,9 @@ class MP3Importer
     @files = []
     Dir.foreach(@path) {|file| if file.include?("mp3")  @files << file}
   end  
+  
  
- def 
+ 
  
  
   
